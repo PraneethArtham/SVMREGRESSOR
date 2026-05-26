@@ -14,7 +14,7 @@ st.title("Car Price Prediction using SVR")
 st.write("Support Vector Regression Model")
 
 # LOAD DATASET
-data = pd.read_csv("CarPrice_Assignment.csv")
+data = pd.read_csv("svm_regressor/CarPrice_Assignment.csv")
 
 # SHOW DATASET
 st.subheader("Dataset")
